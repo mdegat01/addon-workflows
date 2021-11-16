@@ -45,6 +45,10 @@ The original setup of this repository is by [Mike Degatano][mdegat01].
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
 
+Also huge thanks to [Franck Nijhof][frenck] for putting together and maintaining
+the repository/workflow setup for [Home Assistant Community Add-ons][ha-community-addons]!
+This repo is almost entirely a clone the [HA Community Add-ons Workflows repo][ha-community-workflows].
+
 ## License
 
 MIT License
@@ -76,6 +80,9 @@ SOFTWARE.
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io?u=CentralCommand
+[frenck]: https://github.com/frenck
+[ha-community-addons]: https://addons.community/
+[ha-community-workflows]: https://github.com/hassio-addons/workflows
 [mdegat01]: https://github.com/mdegat01
 [github-actions-shield]: https://github.com/mdegat01/addon-workflows/actions/workflows/workflows-ci.yaml/badge.svg
 [github-actions]: https://github.com/mdegat01/addon-workflows/actions/workflows/workflows-ci.yaml
