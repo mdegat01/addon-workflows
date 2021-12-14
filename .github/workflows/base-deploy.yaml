@@ -7,8 +7,6 @@ on:
     secrets:
       GHCR_TOKEN:
         required: true
-      GITHUB_TOKEN:
-        required: true
 
 jobs:
   information:
