@@ -53,7 +53,7 @@ This repo is almost entirely a clone the [HA Community Add-ons Workflows repo][h
 
 MIT License
 
-Copyright (c) 2021 mdegat01
+Copyright (c) 2021-2022 Mike Degatano
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -88,5 +88,5 @@ SOFTWARE.
 [github-actions]: https://github.com/mdegat01/addon-workflows/actions/workflows/workflows-ci.yaml
 [issue]: https://github.com/mdegat01/addon-workflows/issues
 [license-shield]: https://img.shields.io/github/license/mdegat01/addon-workflows.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [repository]: https://github.com/hassio-addons/repository
