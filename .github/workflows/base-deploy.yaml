@@ -32,7 +32,7 @@ jobs:
         uses: actions/checkout@v3.0.2
       - name: 🚀 Run add-on information action
         id: information
-        uses: frenck/action-addon-information@v1.3
+        uses: frenck/action-addon-information@v1.4.0
       - name: ℹ️ Gather version and environment
         id: release
         run: |
