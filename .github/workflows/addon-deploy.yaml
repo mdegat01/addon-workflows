@@ -197,7 +197,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🚀 Dispatch repository updater update signal
-        uses: peter-evans/repository-dispatch@v2.0.0
+        uses: peter-evans/repository-dispatch@v2.1.2
         with:
           token: ${{ secrets.DISPATCH_TOKEN }}
           repository: mdegat01/hassio-addons-edge
@@ -222,7 +222,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🚀 Dispatch repository updater update signal
-        uses: peter-evans/repository-dispatch@v2.0.0
+        uses: peter-evans/repository-dispatch@v2.1.2
         with:
           token: ${{ secrets.DISPATCH_TOKEN }}
           repository: mdegat01/hassio-addons-beta
@@ -245,7 +245,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🚀 Dispatch repository updater update signal
-        uses: peter-evans/repository-dispatch@v2.0.0
+        uses: peter-evans/repository-dispatch@v2.1.2
         with:
           token: ${{ secrets.DISPATCH_TOKEN }}
           repository: mdegat01/hassio-addons
