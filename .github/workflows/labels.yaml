@@ -24,7 +24,7 @@ jobs:
             "https://raw.githubusercontent.com/mdegat01/addon-workflows/main/.github/labels.yml" \
             > labels.yml
       - name: 🚀 Run Label Syncer
-        uses: micnncim/action-label-syncer@v1.3.0
+        uses: micnncim/action-label-syncer@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:

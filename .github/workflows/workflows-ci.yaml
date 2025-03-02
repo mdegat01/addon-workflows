@@ -19,18 +19,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ⤵️ Check out code from GitHub
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v4
       - name: 🚀 Run mdl
-        uses: actionshub/markdownlint@2.0.2
+        uses: actionshub/markdownlint@main
 
   lint-shellcheck:
     name: Shellcheck
     runs-on: ubuntu-latest
     steps:
       - name: ⤵️ Check out code from GitHub
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v4
       - name: 🚀 Run Shellcheck
-        uses: ludeeus/action-shellcheck@1.1.0
+        uses: ludeeus/action-shellcheck@master
         env:
           SHELLCHECK_OPTS: -s bash
 
@@ -39,18 +39,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ⤵️ Check out code from GitHub
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v4
       - name: 🚀 Run YAMLLint
-        uses: frenck/action-yamllint@v1.3
+        uses: frenck/action-yamllint@v1
 
   lint-prettier:
     name: Prettier
     runs-on: ubuntu-latest
     steps:
       - name: ⤵️ Check out code from GitHub
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v4
       - name: 🚀 Run Prettier
-        uses: creyD/prettier_action@v4.2
+        uses: creyD/prettier_action@v4.3
         with:
           prettier_options: --write **/*.{json,js,md,yaml}
         env:
